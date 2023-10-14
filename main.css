@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('img/fundo\ branco.jpg');
+  }
+  
+  .container {
+    text-align: center;
+    width: 45%;
+    padding: 30px;
+    margin-top: 30px;
+    margin: auto; 
+  }
+  
+  h1 {
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 40px;
+  }
+  
+  #cadastroForm {
+    border: 3px solid #a503aa;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #a503aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a503aa;
+  }
+  
